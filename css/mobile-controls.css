@@ -1,0 +1,45 @@
+.mobile-controls-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  touch-action: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-controls-div {
+    visibility: hidden;
+  }
+
+  .mobile-controls {
+    position: none;
+    top: 0;
+  }
+}
+
+.mobile-controls {
+  position: absolute;
+  top: 350px;
+  width: 80%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-controls button {
+  background-color: black;
+  border: 1px solid white;
+  width: 100%;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+  color: #21ecff;
+}
+
+#left {
+  border-radius: 15px 0 0 15px;
+}
+
+#right {
+  border-radius: 0 15px 15px 0;
+}

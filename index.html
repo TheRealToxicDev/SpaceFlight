@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href='./css/reset.css'>
+  <link rel="stylesheet" href='./css/start.css'>
+  <link rel="stylesheet" href='./css/base.css'>
+  <link rel="stylesheet" href='./css/scoreboard.css'>
+  <link rel="stylesheet" href='./css/mobile-controls.css'>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=0">
+  <title>Space Flight</title>
+  <audio id='game-audio' src='./docs/Blipotron.mp3'></audio>
+</head>
+
+<body>
+  <div id='scoreboard-container' class='scoreboard-container show'>
+    <div id='scoreboard' class='scoreboard'>
+      <h2>Game Over, Loser!</h2>
+      <h4>you scored:</h4>
+      <h4 id='player-score'></h4>
+      <button id='play-again'>Play Again?</button>
+    </div>
+
+    <div id='start-menu' class='start-menu'>
+      <h3>Welcome to</h3>
+      <h2>Space Flight</h2>
+      <p id='instructions'></p>
+      <p>Blue obstacles recharge your shields, red ones deplete them. If your shields run out it's game over</p>
+      <button id='start-game'>Start game</button>
+    </div>
+  </div>
+
+  <div class='header'>
+    <div class='mute-container'>
+      <button id='mute' class='mute' />
+    </div>
+
+    <h1>Space Flight</h1>
+
+    <div class='developer-links'>
+      <a class='github-link' href="https://github.com/TheRealToxicDev/SpaceFlight" target='_blank'></a>
+      <a class='linkedin-in' href="https://www.linkedin.com/in/toxic-dev-67b983207" target='_blank'></a>
+    </div>
+  </div>
+
+  <div class='canvas-div'>
+    <canvas id='spaceflight' width='600px' height='600px'></canvas>
+    <script type='application/javascript' src='./bundle.js'></script>
+  </div>
+
+  <div class='mobile-controls-div'>
+    <div class='mobile-controls'>
+      <button id='left'>Left</button>
+      <button id='right'>Right</button>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- Font is created by CodeMan38 on Google Fonts under the Open Font License https://scripts.sil.org/OFL_web -->
