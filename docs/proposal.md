@@ -1,6 +1,6 @@
 ## Overview
 
-Wormhole is a simple and easy game to pick up quickly. The extent of the gameplay is pressing left or right to move the ship the player controls clockwise or counter-clockwise around in a circle while avoiding obstacles coming at them from the center of the screen.
+Space Flight is a simple and easy game to pick up quickly. The extent of the gameplay is pressing left or right to move the ship the player controls clockwise or counter-clockwise around in a circle while avoiding obstacles coming at them from the center of the screen.
 
 The speed will quickly pick up soon after the game starts with some flashy visuals to draw the player in. I've recognized that simple games with minimal controls, a high level of difficulty, and repetitive gameplay are commonly the easiest to for people to pick up and find hard to put down.
 
