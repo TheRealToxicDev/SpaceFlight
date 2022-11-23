@@ -1,20 +1,20 @@
 {
-    "name": "space-flight",
-    "version": "1.0.0",
-    "description": "Just a fun little Space styled Browser Game",
-    "main": "webpack.config.js",
-    "scripts": {
-      "test": "echo \"This is a test\"",
-      "start": "webpack --watch --mode=development"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/TheRealToxicDev/SpaceFlight.git"
-    },
-    "author": "Toxic Dev",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/TheRealToxicDev/SpaceFlight/issues"
-    },
-    "homepage": "https://github.com/TheRealToxicDev/SpaceFlight#readme"
-  }
+  "name": "space-flight",
+  "version": "1.0.0",
+  "description": "Just a fun little Space styled Browser Game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"This is a test\"",
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealToxicDev/SpaceFlight.git"
+  },
+  "author": "Toxic Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealToxicDev/SpaceFlight/issues"
+  },
+  "homepage": "https://github.com/TheRealToxicDev/SpaceFlight#readme"
+}
